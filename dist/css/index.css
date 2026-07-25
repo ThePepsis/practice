@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  background: #c9f2ff;
+}
+
+.container {
+  max-width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.container .p {
+  color: #2323a8;
+  padding: 1em;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #2323a8;
+  border-radius: 15px;
+}
+.container .p:hover {
+  cursor: pointer;
+  font-weight: bold;
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,24 @@
+@use "importer" as i;
+
+.container {
+  max-width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  @include i.d-flex(center, center, column, wrap);
+
+  .p {
+    color: i.$p-co;
+    padding: 1em;
+    border: {
+      width: 2px;
+      style: solid;
+      color: i.$p-co;
+      radius: 15px;
+    }
+
+    &:hover {
+      cursor: pointer;
+      font-weight: bold;
+    }
+  }
+}
